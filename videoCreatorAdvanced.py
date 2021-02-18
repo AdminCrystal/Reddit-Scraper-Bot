@@ -11,11 +11,11 @@ import praw
 from praw.models import MoreComments
 
 #authentication for reddit api
-reddit = praw.Reddit(client_id='CwIVqQBOamg2ig', \
-                     client_secret='sLu5HWOxXq1ceQ61T9tackFTjqU', \
-                     user_agent='Scraper', \
-                     username='AdminCrystal', \
-                     password='qweasd123BNM')
+reddit = praw.Reddit(client_id='', \
+                     client_secret='', \
+                     user_agent='', \
+                     username='', \
+                     password='')
 
 #allows the user to put the url to the subreddit to be used
 subreddit = reddit.submission(url=input('Paste url: '))

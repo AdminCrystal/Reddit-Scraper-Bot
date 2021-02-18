@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+
+* {
+  box-sizing: border-box;
+  background: #1a1a1b;
+}
+
+#parent {
+		display: table; 
+	background-color: #1a1a1b;
+	width: 1280px;
+	height: 720px;  
+    
+		}
+        
+        #child {
+		
+		box-sizing: border-box;
+		}
+        
+        .toptext{
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 9px;
+        color: white;
+        font-size: 90px;
+        width: 50%;
+        float: left;
+        
+        }
+        
+        .menu{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 60px -9px 0px 9px;
+        width: 0px;
+        color: white;
+        height: 400px;
+		display: inline-block;
+        vertical-align: middle;
+        top: 30%;
+        width: 50%;
+        float: left;
+        font-size: 50px;
+        line-height: normal;
+        display: table;
+        
+        }
+        p{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        }
+        
+        .picture{
+        
+        float: right;
+        width: 620px;
+        margin: -132px 0px -9px 0px;
+        }
+        
+</style>
+
+<div id="parent">
+<div id="child">
+<div class="toptext">
+
+
+<img src="redditLogo.svg" alt="Trulli" width="90" height="90">
+r/AskReddit
+</div>
+
+
+<div class="menu">
+
+<p>
+$$brent$$
+</p>
+</div>
+
+
+<div class="picture">
+<img src="$$hansen$$" alt="Trulli" width="620" height="703">
+</div>
+
+
+</div>
+</div>
+</body>
+</html>
